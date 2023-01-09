@@ -1,4 +1,5 @@
 .intro {
+  max-width: 690px;
   padding: 0 148px;
   margin-bottom: 92px;
 }
@@ -12,11 +13,13 @@
 @media all and (max-width: 1023px) {
   .intro {
     padding: 0 24px;
+    max-width: 720px;
   }
 }
 
 @media all and (max-width: 767px) {
   .intro {
     padding: 0 16px;
+    max-width: 288px;
   }
 }

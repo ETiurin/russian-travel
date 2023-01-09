@@ -10,16 +10,17 @@
   align-items: flex-end;
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 1024px) {
   .header {
     padding: 28px 24px 0;
+    margin-bottom: 48px;
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
   .header {
     grid-template-rows: 42px;
-    padding: 16px 24px 0;
+    padding: 16px 16px 0; 
     margin-bottom: 48px;
   }
 }

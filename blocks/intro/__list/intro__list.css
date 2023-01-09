@@ -1,5 +1,23 @@
 .intro__list {
-  color: #fff;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 690px;
+  font-style: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  list-style-type: none;
+  color: #fff;
+}
+
+@media all and (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+  }
 }

@@ -1,11 +1,5 @@
 .place__website {
-  margin: 0;
-  padding: 0;
-  color: #fff;
-}
-
-@media all and (max-width: 767px) {
-  .place__website {
-    margin: 0 16px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }

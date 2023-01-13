@@ -1,38 +1,14 @@
 .cover__overlay {
-  display: block;
-  position: relative;
-  z-index: 1;
-  max-height: 740px;
-  text-decoration: none;
-  background-image: url(../../../images/__background.svg);
-  background-size: cover;
-  opacity: 0.3;
-}
-
-.cover__overlay::before {
   position: absolute;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  z-index: -1;
-  content: "";
-  background: #2a2a2f;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
   opacity: 0.3;
+  background: #2A2C2F;
 }
 
-.cover__overlay:hover::before {
-  opacity: 0.8;
-}
-
-@media all and (max-width: 1024px) {
-  .cover__overlay {
-  max-height: 640px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .cover__overlay {
-  max-height: 480px;
-  }
+.cover__overlay:hover {
+  opacity: .8;
 }

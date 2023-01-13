@@ -5,24 +5,32 @@
   grid-gap: 48px 40px;
   box-sizing: border-box;
   margin: 0 auto 80px;
-  padding: 0;
-
 }
 
 @media all and (max-width: 1279px) {
-  .lead {
-    max-height: 660px;
+  .place {
+    max-height: 640px;
+    grid-template-columns: 440px 456px;
+    grid-gap: 48px 32px;
+    margin: 0 auto 73px;
+
   }
 }
 
 @media all and (max-width: 1023px) {
-  .lead {
+  .place {
     max-height: 581px;
+    grid-template-columns: 340px 352px;
+    grid-gap: 48px 28px;
+    margin: 0 auto 50px;  
   }
 }
 
 @media all and (max-width: 767px) {
-  .lead {
+  .place {
     max-height: 1042px;
+    grid-template-columns: 320px;
+    grid-gap: 32px;
+    margin: 0 auto 50px;  
   }
 }

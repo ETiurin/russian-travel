@@ -13,7 +13,6 @@
     grid-template-columns: 440px 456px;
     grid-gap: 48px 32px;
     margin: 0 auto 73px;
-
   }
 }
 
@@ -29,7 +28,7 @@
 @media all and (max-width: 767px) {
   .place {
     max-height: 1042px;
-    grid-template-columns: 320px;
+    grid-template-columns: 1fr;
     grid-gap: 32px;
     margin: 0 auto 50px;  
   }

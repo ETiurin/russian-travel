@@ -5,24 +5,9 @@
   text-decoration: none;
 }
 
-@media all and (max-width: 1279px) {
-  .footer {
-    padding: 0 24px 24px;
-  }
-}
-
-@media all and (max-width: 1023px) {
-  .footer {
-    padding: 0 24px 24px;
-  }
-}
-
 @media all and (max-width: 767px) {
   .footer {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(6, auto);
-    grid-gap: 32px;
-    
-    padding: 0 0 66px;
+    font-size: 24px;
+    line-height: 24px;
   }
 }

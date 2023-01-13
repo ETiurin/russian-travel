@@ -1,5 +1,4 @@
 .places {
-  max-height: 3392px;
   padding: 0 148px 92px;
 }
 
@@ -11,14 +10,12 @@
 
 @media all and (max-width: 1023px) {
   .places {
-    max-height: 2808px;
     padding: 0 24px 90px;
   }
 }
 
 @media all and (max-width: 767px) {
   .places {
-    max-height: 5177px;
     padding: 0 0 66px;
   }
 }

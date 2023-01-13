@@ -1,7 +1,17 @@
 .cover {
-  position: relative;
   margin: 0 48px 92px;
-  padding: 245px 0;
   background-image: url(../../images/__background.png);
   background-size: cover;
+}
+
+@media all and (max-width: 1023px) {
+  .cover {
+    margin: 0 0 88px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .cover {
+    margin: 0 0 64px;
+  }
 }

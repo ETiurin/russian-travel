@@ -6,3 +6,22 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+@media all and (max-width: 1279px) {
+  .footer {
+    padding: 0 24px 24px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .footer {
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 16px;
+    text-align: left;
+
+  }
+}

@@ -1,11 +1,9 @@
 .lead__subtitle {
-  max-height: 72px;
   margin: 0 172px 64px;
   font-size: 30px;
   font-weight: normal;
   line-height: 36px;
   text-align: center;
-  color: #fff;
 }
 
 @media all and (max-width: 1279px) {
@@ -22,7 +20,6 @@
 
 @media all and (max-width: 767px) {
   .lead__subtitle {
-    max-height: 40px;
     margin: 0 18px 40px;
     font-size: 16px;
     line-height: 20px;

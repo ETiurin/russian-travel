@@ -1,4 +1,6 @@
 .header__lang-link {
+  width: 100%;
+  max-width: 30px;
   line-height: 28px;
   font-style: normal;
   font-weight: 400;

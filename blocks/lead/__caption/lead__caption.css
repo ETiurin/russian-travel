@@ -6,6 +6,7 @@
   text-transform: uppercase;
   color: #fff;
   align-self: flex-start;
+  margin: 0;
 }
 
 @media all and (max-width: 1023px) {

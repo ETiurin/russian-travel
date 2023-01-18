@@ -15,14 +15,14 @@
 
 @media all and (max-width: 1023px) {
   .places {
-    column-gap: 73px;
+    row-gap: 73px;
     padding: 0 24px 90px;
   }
 }
 
 @media all and (max-width: 767px) {
   .places {
-    column-gap: 50px;
+    row-gap: 50px;
     padding: 0 0 66px;
   }
 }

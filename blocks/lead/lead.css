@@ -1,7 +1,7 @@
 .lead {
   display: flex;
   flex-direction: column;
-  max-height: 100%;
+  align-items: center;
   padding: 0 148px;
   margin: 0 0 92px;
   color: #fff;
@@ -22,7 +22,6 @@
 
 @media all and (max-width: 767px) {
   .lead {
-    padding: 0;
     margin-bottom: 64px;
   }
 }

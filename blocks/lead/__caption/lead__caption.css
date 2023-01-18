@@ -5,6 +5,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #fff;
+  align-self: flex-start;
 }
 
 @media all and (max-width: 1023px) {

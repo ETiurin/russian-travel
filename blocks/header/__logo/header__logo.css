@@ -1,5 +1,5 @@
 .header__logo {
-  width: auto;
+  max-width: 176px;
   height: 100%;
 }
 
